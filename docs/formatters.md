@@ -14,7 +14,7 @@ add ```build/formatters.js``` and ```src/formatters/html.css``` to your page, an
   document.getElementBy('the-diff').innerHTML = jsondiffpatch.formatters.html.format(delta, left);
 
 
-  // Also you can dinamically show/hide unchanged values
+  // Also you can dynamically show/hide unchanged values
   jsondiffpatch.formatters.html.showUnchanged();
   jsondiffpatch.formatters.html.hideUnchanged();
   // these will also adjust array move arrows (SVG), which is useful if something alters the html layout
